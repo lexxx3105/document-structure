@@ -8,7 +8,6 @@ window.onload = function() {
     tooltipElements.forEach(element => {
         element.addEventListener('click', event => {
             event.preventDefault();
-
             if (tooltip.classList.contains('tooltip_active') && tooltip.innerText === element.title) {
                 tooltip.classList.remove('tooltip_active');
             } else {

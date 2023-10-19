@@ -25,7 +25,6 @@ document.addEventListener('DOMContentLoaded', function() {
         newTask.append(taskTitle);
         newTask.append(taskRemove);
         tasksList.append(newTask);
-
         taskInput.value = '';
 
         taskRemove.addEventListener('click', function(event) {
